@@ -54,4 +54,22 @@ npm run test
 > **Note**                
 > Os testes E2E executam em um ambiente de banco de dados diferente para cada switch de testes
 
-## 💠
+## 💠 Rotas da api
+
+### - Rotas de usuário
+   - [x] POST ```/users``` cria um novo usuário
+   - [x] POST ```/sessions``` faz a autenticação do usuário
+   - [x] PATCH ```/token/refresh``` gera um novo JWT de autenticação para o usuário
+   - [x] GET ```/me``` retorna informações do usuário logado
+  
+### - Rotas de academia
+   - [x] POST ```/gyms``` cria uma nova academia
+   - [x] GET ```/gyms/search``` busca academias por nome
+   - [x] GET ```/gyms/nearby``` busca academias próximas
+
+### - Rotas de Check-in
+   - [x] POST ```/gyms/:gymId/check-ins``` cria um novo check-in
+   - [x] PATCH ```/check-ins/:checkInId/validate``` valida um check-in
+   - [x] GET ```/check-ins/history``` traz informações dos check-ins ja feitos pelo usuário
+   - [x] GET ```/check-ins/metrics``` retorna informações do usuário logado
+
