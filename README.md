@@ -71,5 +71,21 @@ npm run test
    - [x] POST ```/gyms/:gymId/check-ins``` cria um novo check-in
    - [x] PATCH ```/check-ins/:checkInId/validate``` valida um check-in
    - [x] GET ```/check-ins/history``` traz informações dos check-ins ja feitos pelo usuário
-   - [x] GET ```/check-ins/metrics``` retorna informações do usuário logado
+   - [x] GET ```/check-ins/metrics``` retorna quantos check-ins o usuário ja realizou
 
+## 🔱 Ferramentas utilizadas
+ - Node.js com TypeScript
+ - Fastify
+ - EsLint
+ - Vitest
+ - Supertest
+ - Npm run all
+ - Fastify/cookie
+ - Fastify/jwt
+ - Zod
+ - Dayjs
+ - Dotenv
+ - Prisma
+ - Bcryptjs
+ - Docker
+ - Postgress
