@@ -27,8 +27,31 @@ docker compose up -d
 npx prisma migrate dev
 ```
 
+4º - Start na aplicação
+```
+npm run dev
+```
 
+## 🧪 Testes
 
+Para verificar com precisão a integridade de toda a aplicação, foram criados testes unitários e E2E
+
+### Rodar os testes uinitários:
+```
+npm run test
+```
+
+### Rodar os testes E2E:
+ - modo normal:
+ ```
+ npm run test:e2e
+ ```
  
-## Testes
+ - modo watch:
+ ```
+ npm run test:e2e:watch
+ ```
+> **Note**                
+> Os testes E2E executam em um ambiente de banco de dados diferente para cada switch de testes
 
+## 💠
